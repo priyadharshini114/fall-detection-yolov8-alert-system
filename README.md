@@ -3,8 +3,6 @@
 This project implements a **real-time fall detection system** using the **YOLOv8 object detection model** and **OpenCV**.  
 The system tracks people in a video, identifies potential fall incidents using heuristics like **aspect ratio change**, **centroid shift**, and **motion velocity**, and automatically **sends an email alert** with snapshot and GIF evidence when a fall is detected.
 
----
-
 ## How It Works
 1. **YOLOv8** detects and tracks persons in each video frame using **ByteTrack**.  
 2. The system calculates metrics such as:
@@ -55,12 +53,15 @@ Attachments: fall snapshot and GIF sequence
 Model: YOLOv8m.pt
 Confidence Threshold: 0.5
 Tested On: Indoor fall detection videos
-Accuracy: ~93–95% for clear frontal and side views
+Accuracy: ~85–95% for clear frontal and side views
 Processing Speed: 15–25 FPS (depending on hardware)
 ```
 
 ## Demo and Video Files
+**Video Folder (Input / Output / Demo Files):**  
+[View on Google Drive](https://drive.google.com/drive/folders/1MOqIscBLTYz8ohDaOykN6LoU9Bya6O5r?usp=drive_link)  
 
-You can view the input video, output detection results, and the demo video showing the fall detection and alert trigger inside the videos/
- folder.
+**Demo Video (Fall Detection and Alert in Action):**  
+[Watch Demo](https://drive.google.com/file/d/1lNf6NttbP6nd3r2B7oLZpJqvJeYDPzeB/view?usp=drive_link)  
+
 
