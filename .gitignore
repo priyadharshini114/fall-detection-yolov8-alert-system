@@ -1,0 +1,98 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite3
+*.db
+
+# -------------------------
+# Virtual environment
+# -------------------------
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# -------------------------
+# Model and large data files
+# -------------------------
+*.pt
+*.weights
+*.onnx
+*.h5
+*.ckpt
+*.tflite
+*.pb
+*.npy
+*.npz
+*.pkl
+*.dat
+
+
+# -------------------------
+# Project output directories
+# -------------------------
+fall_outputs/
+outputs/
+runs/
+logs/
+checkpoints/
+__results__/
+temp/
+cache/
+__cache__/
+
+# -------------------------
+# Environment and config secrets
+# -------------------------
+.env
+.env.*
+*.json
+*.yaml
+*.yml
+config.ini
+credentials.txt
+
+# -------------------------
+# Executables and installers
+# -------------------------
+*.exe
+*.bat
+*.msi
+*.sh
+*.out
+*.so
+*.dll
+*.a
+*.o
+
+# -------------------------
+# Jupyter & IDE files
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Mac / Windows system files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Temporary / debug files
+# -------------------------
+*.tmp
+*.bak
+*.swp
+*.swo
