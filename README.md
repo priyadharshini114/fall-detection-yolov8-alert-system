@@ -38,10 +38,9 @@ python fainallll.py --video path_to_video.mp4 --visualize --alert
 ```
 
 ## Before running, configure your Gmail credentials:
-
-EMAIL_SENDER = "your_email@gmail.com"
-EMAIL_PASSWORD = "your_app_password"
-EMAIL_RECIPIENT = "recipient_email@gmail.com"
+**EMAIL_SENDER = "your_email@gmail.com"**
+**EMAIL_PASSWORD = "your_app_password"**
+**EMAIL_RECIPIENT = "recipient_email@gmail.com"**
 
 ## Email Alert Example
 
@@ -64,3 +63,4 @@ Processing Speed: 15–25 FPS (depending on hardware)
 
 You can view the input video, output detection results, and the demo video showing the fall detection and alert trigger inside the videos/
  folder.
+
